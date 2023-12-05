@@ -5,3 +5,4 @@ echo "My webhook's amazing" > 4.txt
 
 zip archive.zip *.txt
 
+cowsay "I'm an idiot"
