@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''
                 pwd
-                echo "Hi there"
+                echo "Hi Dean"
                 echo "Groovy Baby"
                 echo "Inside shell block"
                 '''
@@ -25,5 +25,5 @@ pipeline {
                 archiveArtifacts '*.zip'
             }
         }
-        
+
 }
