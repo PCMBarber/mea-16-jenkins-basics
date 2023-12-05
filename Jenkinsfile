@@ -19,11 +19,11 @@ pipeline {
                 sh 'sh ./run.sh'
             }
         }
-
+    }
         post {
             always {
                 archiveArtifacts '*.zip'
             }
         }
-    }
+        
 }
